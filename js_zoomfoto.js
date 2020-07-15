@@ -18,7 +18,7 @@
             divZoomImage.id = this.dataset.zoomImage;       
         };
 
-        divZoomImage.innerHTML = '<img style="max-width: 100%; border-radius: 20px;" src="' + this.href + '" />';
+        divZoomImage.innerHTML = '<img src="' + this.href + '" />';
 
         document.body.appendChild(divZoomImage);
 
