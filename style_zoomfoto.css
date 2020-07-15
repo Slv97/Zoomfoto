@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 2%;
+    background-color: #ededed;
+}
+
+.gallery {
+    background-color: #fff;
+    padding: 2%;
+    border-radius: 30px;
+}
+
+.gallery ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery li {
+    width: calc(33.3% - 20px);
+    margin: 10px;
+    list-style: none;
+    overflow: hidden;
+}
+
+.gallery a {
+    display: inline-block;
+    /* width: calc(100% - 50px); */
+    overflow: hidden; 
+}
+
+/* .gallery img {
+    width: 70%; 
+    height: 70%;   
+} */
+
+.foto_1 {
+    background-image: url(/images/foto_1.jpg);
+}
+
+.foto_style {
+    height: 100%;
+    width: 100%;
+}
+    
+
+.zoomImage {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 60px #333;
+    z-index: 999;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    background-size: cover;
+    position: center;
+     overflow: hidden; 
+    /* height: 500px; */
+    
+}
+
+.list_tdl_delete {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 7%;
+    height: 9%;
+    border: 0;
+    background-color: #ededed;    
+    border-radius: 50%;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+.list_tdl_delete:hover {
+    background-color: #b41f1f;
+    text-shadow: 0 0 30px #333;
+    cursor: pointer;
+}
